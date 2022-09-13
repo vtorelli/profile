@@ -5,7 +5,7 @@ body {
   font-weight: 300;
   color: #1D3557;
   font-size: 16px;
-  background-color: #1D3557
+  background: linear-gradient(90deg, rgba(29,53,87,1) 31%, rgba(40,63,97,1) 100%);
 }
 
 h1, h2 {
