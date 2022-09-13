@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Roboto+Slab:wght@300;400&display=swap');
 
 body {
   font-family: 'Roboto Slab', serif;
@@ -15,7 +15,7 @@ h1, h2 {
 
 h1 {
   color: #E63946;
-  font-size: 40px;
+  font-size: 48px;
 }
 
 h2 {
@@ -29,7 +29,7 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: #457B9D;
+  color: #A8DADC;
   text-decoration: none;
 }
 
@@ -37,13 +37,15 @@ a:hover {
   object-fit: cover;
   object-position: 70px, 100px;
   border-radius: 50%;
-  width: 180;
-  height: 180;
+  width: 170;
+  height: 170;
   margin: 0 auto;
+  margin-bottom: 5%;
+
 }
 
 .container {
-  max-width: 600px;
+  max-width: 570px;
   margin: auto;
 }
 
@@ -66,26 +68,26 @@ a:hover {
 
 .btn-red {
   background-color: #E63946;
-  border: 2px solid #E63946;
   padding: 16px;
   width: 30%;
   margin: auto;
   border-radius: 8px;
+  margin-top: 5%;
+
 }
 
 .btn-red:hover {
-  background-color: #f1faee;
-  border: 2px solid #E63946;
+  background-color: #A8DADC;
   padding: 16px;
   width: 30%;
   margin: auto;
   border-radius: 8px;
+  margin-top: 5%;
 }
 
 .btn-red a {
   color: #f1faee;
-}
-
-.btn-red:hover a {
-  color: #E63946;
+  font-family: "Montserrat", sans-serif;
+  font-size:15px;
+  font-weight: 400;
 }
