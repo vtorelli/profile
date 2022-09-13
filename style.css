@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto+Slab:wght@300;400&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #1D3557;
+  font-size: 16px;
+  background-color: #1D3557
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+h1 {
+  color: #E63946;
+  font-size: 40px;
+}
+
+h2 {
+  color: #457B9D;
+  font-size: 32px;
+}
+
+a:link, a:visited {
+  color: #E63946;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #457B9D;
+  text-decoration: none;
+}
+
+.img-circle {
+  object-fit: cover;
+  object-position: 70px, 100px;
+  border-radius: 50%;
+  width: 180;
+  height: 180;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.card {
+  background-color: #f1faee;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  margin: 40px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 32px;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 32px;
+}
+
+.btn-red {
+  background-color: #E63946;
+  border: 2px solid #E63946;
+  padding: 16px;
+  width: 30%;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.btn-red:hover {
+  background-color: #f1faee;
+  border: 2px solid #E63946;
+  padding: 16px;
+  width: 30%;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.btn-red a {
+  color: #f1faee;
+}
+
+.btn-red:hover a {
+  color: #E63946;
+}
